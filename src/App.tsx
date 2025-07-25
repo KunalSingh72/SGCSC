@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       Helloooooooo
-      <img src="/eleceed.jpeg"></img>
+      <img src="public/eleceed.jpeg"></img>
     </>
   )
 }
