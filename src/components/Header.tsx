@@ -18,7 +18,7 @@ export default function Header() {
       {/* Top Bar */}
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" onClick={closeMobileMenu} className="flex items-center space-x-4">
-          <img src="/logo.png" alt="Logo" className="w-16 h-16 drop-shadow-sm" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="w-16 h-16 drop-shadow-sm" />
           <h1 className="text-lg sm:text-xl md:text-2xl font-extrabold text-green-700 tracking-tight leading-tight">
             Shree Ganpati Computer & Study Centre
           </h1>

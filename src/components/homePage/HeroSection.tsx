@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
 const images = [
-  "/hero1.jpg",
-  "/hero2.jpg",
-  "/hero3.jpg",
-  "/hero4.jpg", 
+  `${import.meta.env.BASE_URL}hero1.jpg`,
+  `${import.meta.env.BASE_URL}hero2.jpg`,
+  `${import.meta.env.BASE_URL}hero3.jpg`,
+  `${import.meta.env.BASE_URL}hero4.jpg`, 
 ];
 
 export default function HeroSection() {

@@ -7,19 +7,19 @@ type Course = {
 };
 
 const longTermCourses: Course[] = [
-  { title: "Diploma in Computer Applications (DCA)", duration: "1 Year", image: "/courses/dca.jpg" },
-  { title: "Advanced Diploma in Computer Programming", duration: "1 Year", image: "/courses/adcp.jpg" },
+  { title: "Diploma in Computer Applications (DCA)", duration: "1 Year", image: `${import.meta.env.BASE_URL}hero1.jpg` },
+  { title: "Advanced Diploma in Computer Programming", duration: "1 Year", image: `${import.meta.env.BASE_URL}hero2.jpg` },
 ];
 
 const shortTermCourses: Course[] = [
-  { title: "Basic Computer Training", duration: "6 Months", image: "/courses/basic.jpg" },
-  { title: "Office Automation", duration: "6 Months", image: "/courses/office.jpg" },
+  { title: "Basic Computer Training", duration: "6 Months", image: `${import.meta.env.BASE_URL}hero3.jpg` },
+  { title: "Office Automation", duration: "6 Months", image: `${import.meta.env.BASE_URL}hero4.jpg` },
 ];
 
 const certificateCourses: Course[] = [
-  { title: "Tally & GST", duration: "3 Months", image: "/courses/tally.jpg" },
-  { title: "Graphic Designing", duration: "3 Months", image: "/courses/graphic.jpg" },
-  { title: "Web Designing", duration: "3 Months", image: "/courses/web.jpg" },
+  { title: "Tally & GST", duration: "3 Months", image: `${import.meta.env.BASE_URL}hero2.jpg`},
+  { title: "Graphic Designing", duration: "3 Months", image: `${import.meta.env.BASE_URL}hero3.jpg` },
+  { title: "Web Designing", duration: "3 Months", image: `${import.meta.env.BASE_URL}hero2.jpg` },
 ];
 
 const renderCourseCard = (course: Course, index: number) => (

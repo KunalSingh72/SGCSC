@@ -162,7 +162,7 @@ export default function FranchiseRegister() {
           </label>
           <div className="flex items-center gap-3">
             <img
-              src="/captcha.png"
+              src={`${import.meta.env.BASE_URL}captcha.png`}
               alt="captcha"
               className="h-10 border rounded shadow"
             />

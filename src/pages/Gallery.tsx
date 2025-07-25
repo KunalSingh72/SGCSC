@@ -1,13 +1,13 @@
 const galleryImages = [
-  "/hero1.jpg",
-  "/hero2.jpg",
-  "/hero3.jpg",
-  "/hero4.jpg",
-  "/hero1.jpg",
-  "/hero2.jpg",
-  "/hero2.jpg",
-  "/hero2.jpg",
-  "/hero2.jpg",
+  `${import.meta.env.BASE_URL}hero1.jpg`,
+  `${import.meta.env.BASE_URL}hero2.jpg`,
+  `${import.meta.env.BASE_URL}hero3.jpg`,
+  `${import.meta.env.BASE_URL}hero4.jpg`,
+  `${import.meta.env.BASE_URL}hero1.jpg`,
+  `${import.meta.env.BASE_URL}hero2.jpg`,
+  `${import.meta.env.BASE_URL}hero3.jpg`,
+  `${import.meta.env.BASE_URL}hero4.jpg`,
+  `${import.meta.env.BASE_URL}hero1.jpg`,
 ];
 
 export default function GalleryPage() {

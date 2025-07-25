@@ -29,7 +29,7 @@ export default function AboutUs() {
           </p>
         </div>
         <img
-          src="/hero1.jpg"
+          src={`${import.meta.env.BASE_URL}hero1.jpg`}
           alt="SGCSC Classroom"
           className="w-full h-auto rounded-xl shadow-lg"
         />
@@ -92,7 +92,7 @@ export default function AboutUs() {
       {/* Image Showcase */}
       <section className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {["/hero1.jpg", "/hero2.jpg", "/hero3.jpg"].map((src, i) => (
+          {[`${import.meta.env.BASE_URL}hero1.jpg`, `${import.meta.env.BASE_URL}hero2.jpg`, `${import.meta.env.BASE_URL}hero3.jpg`].map((src, i) => (
             <img
               key={i}
               src={src}

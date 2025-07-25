@@ -33,15 +33,14 @@ function App() {
           <Route path="/student/certificate-verification" element={<CertificateVerification />} />
           <Route path="/student/admit-card" element={<AdmitCard />} />
           <Route path="/student/login" element={<StudentLogin />} />
-          <Route path="franchise" element={<Franchise />} />
-          <Route path="franchise/register" element={<FranchiseRegister />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="gallery" element={<Gallery />} />
+          <Route path="/franchise" element={<Franchise />} />
+          <Route path="/franchise/register" element={<FranchiseRegister />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/gallery" element={<Gallery />} />
 
         </Route>  
       </Routes>
     </QueryClientProvider>
-    
   )
 }
 
