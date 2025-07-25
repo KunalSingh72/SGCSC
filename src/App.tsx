@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-      Helloooooooo
+      Home page
       <img src="public/eleceed.jpeg"></img>
     </>
   )
