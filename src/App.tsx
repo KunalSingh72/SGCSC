@@ -15,6 +15,10 @@ import AdmitCard from "./components/studentPage/AdmitCard";
 import StudentLogin from "./components/studentPage/StudentLogin";
 import Franchise from "./pages/Franchise";
 import FranchiseRegister from "./components/franchisePage/FranchiseRegister";
+import FranchiseDetails from "./components/franchisePage/FranchiseDetails";
+import FranchiseVerification from "./components/franchisePage/FranchiseVerification";
+import CenterLogin from "./components/franchisePage/CenterLogin";
+import CenterList from "./components/franchisePage/CenterList";
 
 
 
@@ -35,6 +39,10 @@ function App() {
           <Route path="/student/login" element={<StudentLogin />} />
           <Route path="/franchise" element={<Franchise />} />
           <Route path="/franchise/register" element={<FranchiseRegister />} />
+          <Route path="/franchise/details" element={<FranchiseDetails />} />
+          <Route path="/franchise/verification" element={<FranchiseVerification />} />
+          <Route path="/franchise/centers" element={<CenterList />} />
+          <Route path="/franchise/login" element={<CenterLogin />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />
 

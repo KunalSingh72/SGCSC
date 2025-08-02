@@ -61,7 +61,7 @@ export default function Header() {
             {/* Student Dropdown */}
             <li className="relative group">
               <div className="flex items-center space-x-1 hover:text-green-600 transition cursor-pointer">
-                <span>Student</span>
+                <span><Link to="/student/">Student</Link></span>
                 <ChevronDown size={16} />
               </div>
               <ul className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-md border border-gray-200 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-50">
@@ -76,7 +76,7 @@ export default function Header() {
             {/* Franchise Dropdown */}
             <li className="relative group">
               <div className="flex items-center space-x-1 hover:text-green-600 transition cursor-pointer">
-                <span>Franchise</span>
+                <span><Link to="/franchise/">Franchise</Link></span>
                 <ChevronDown size={16} />
               </div>
               <ul className="absolute left-0 mt-2 w-64 bg-white shadow-lg rounded-md border border-gray-200 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-50">
@@ -108,7 +108,7 @@ export default function Header() {
                   }}
                   className="w-full flex justify-between items-center px-4 py-2 hover:bg-green-100"
                 >
-                  <span>Student</span>
+                  <span><Link to="/student/">Student</Link></span>
                   <ChevronDown
                     className={`transform transition-transform ${studentMenuOpen ? "rotate-180" : ""}`}
                     size={18}
@@ -134,7 +134,7 @@ export default function Header() {
                   }}
                   className="w-full flex justify-between items-center px-4 py-2 hover:bg-green-100"
                 >
-                  <span>Franchise</span>
+                  <span><Link to="/franchise/">Franchise</Link></span>
                   <ChevronDown
                     className={`transform transition-transform ${franchiseMenuOpen ? "rotate-180" : ""}`}
                     size={18}
